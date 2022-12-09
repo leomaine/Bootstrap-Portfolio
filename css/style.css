@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: black;
+  display: block;
+  color: beige;
+
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.gradphoto {
+  height: 300px;
+  width: 400px;
+
+}
+
+.project1 {
+  background-image: url("../images/02-hero-bg.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  flex: 0 0 100%;
+  padding: 10px;
+}
+
+.project2 {
+  background-image: url("../images/02-portfolio-1.jpg");
+  height: 300px;
+  width: 50%;
+  background-size: cover;
+  flex: 0 0 50%;
+}
+
+.project3 {
+  background-image: url("../images/02-portfolio-3.jpg");
+  height: 300px;
+  width: 50%;
+  background-size: cover;
+  flex: 0 0 50%;
+}
+
+.titleclass {
+  padding: 14px 50px;
+}
+
+.main-nav-list {
+  overflow: hidden;
+
+
+}
+
+.main-nav-list a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.work-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+#about {
+  border: 1px solid beige;
+  padding: 1rem;
+  flex: 1;
+}
+
+#work {
+  border: 1px solid beige;
+  padding: 1rem;
+  flex: 1;
+}
+
+#contact {
+  border: 1px solid beige;
+  padding: 1rem;
+  flex: 1;
+
+}
+
+#contact li {
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+
+    display: grid;
+  }
+
+  .project1 {
+    width: 60%;
+    height: 100px;
+  }
+
+  .project2 {
+    width: 60%;
+    height: 100px;
+  }
+
+  .project3 {
+    width: 60%;
+    height: 100px;
+  }
+}
